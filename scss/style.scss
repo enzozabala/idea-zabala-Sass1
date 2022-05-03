@@ -1,0 +1,12 @@
+/*base*/
+
+@import "../scss/base/reset";
+ /*modificador del body*/
+.body {
+    background-color:rgb(233, 218, 218);
+    color: black;
+    font-family: 'Pacifico', cursive;
+}
+/*Contenedor completo*/
+@import "../scss/componentes/contenedor";
+//sass --watch scss/style.scss css/style.css//
